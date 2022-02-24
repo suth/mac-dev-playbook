@@ -153,9 +153,12 @@ It's my hope that I can get the rest of these things wrapped up into Ansible pla
   1. Set JJG-Term as the default Terminal theme (it's installed, but not set as default automatically).
   3. Install all the apps that aren't yet in this setup (see below).
   4. Remap Caps Lock to Escape (requires macOS Sierra 10.12.1+).
-  5. Set trackpad tracking rate.
+  5. Set trackpad tracking rate/tap to click.
   6. Set mouse tracking rate.
   7. Configure extra Mail and/or Calendar accounts (e.g. Google, Exchange, etc.).
+  8. Enable unlock with Apple Watch
+  9. Set up Time Machine
+  10. Configure SSH keys
 
 ### Configuration to be added:
 
