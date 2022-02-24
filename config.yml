@@ -1,0 +1,74 @@
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: true
+dockitems_remove:
+  - Launchpad
+  - TV
+  - Podcasts
+  - 'App Store'
+dockitems_persist: []
+# - name: "Sublime Text"
+#   path: "/Applications/Sublime Text.app/"
+#   pos: 5
+
+dotfiles_repo: https://github.com/suth/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_files:
+  - .zshrc
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .vimrc
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - autoconf
+  - bash-completion
+  # - gifsicle
+  - git
+  # - httpie
+  - iperf
+  # - nmap
+  - node
+  - nvm
+  - php
+  - ssh-copy-id
+  # - openssl
+  - wget
+  # - wrk
+  - zsh-history-substring-search
+
+homebrew_cask_apps:
+  - docker
+  - dropbox
+  - google-chrome
+  - brave-browser
+  - firefox
+  - licecap
+  - tableplus
+  - slack
+  - discord
+  - vlc
+  - bettertouchtool
+  - iterm2
+  - phpstorm
+  - postman
+  - sublime-text
+  - fork
+  - dash
+  - autodesk-fusion360
+  - prusaslicer
+  - raspberry-pi-imager
+  - balenaetcher
+  - minecraft
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps:
+  - { id: 443987910, name: "1Password" }
+  - { id: 425264550, name: "Blackmagic Disk Speed Test" }
+  - { id: 411643860, name: "DaisyDisk" }
+  - { id: 1451685025, name: "WireGuard" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 1099568401, name: "Home Assistant" }
+
+osx_script: "~/.osx --no-restart"
