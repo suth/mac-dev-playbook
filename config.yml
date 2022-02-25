@@ -66,6 +66,7 @@ homebrew_cask_apps:
   - google-chrome
   - brave-browser
   - firefox
+  - alfred
   - licecap
   - tableplus
   - slack
@@ -86,7 +87,7 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 443987910, name: "1Password" }
+  - { id: 1333542190, name: "1Password" }
   - { id: 425264550, name: "Blackmagic Disk Speed Test" }
   - { id: 411643860, name: "DaisyDisk" }
   - { id: 1451685025, name: "WireGuard" }
