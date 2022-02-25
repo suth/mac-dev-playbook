@@ -41,6 +41,7 @@ dotfiles_files:
   - .inputrc
   - .osx
   - .vimrc
+  - .p10k.zsh
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -59,6 +60,12 @@ homebrew_installed_packages:
   - wget
   # - wrk
   - zsh-history-substring-search
+  - romkatv/powerlevel10k/powerlevel10k
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-fonts
 
 homebrew_cask_apps:
   - docker
@@ -84,6 +91,8 @@ homebrew_cask_apps:
   - raspberry-pi-imager
   - balenaetcher
   - minecraft
+  - font-fira-code
+  - font-fira-code-nerd-font
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
