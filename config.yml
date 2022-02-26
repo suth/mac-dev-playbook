@@ -104,3 +104,18 @@ mas_installed_apps:
   - { id: 1099568401, name: "Home Assistant" }
 
 osx_script: "~/.osx --no-restart"
+
+# Set to 'true' to configure Sublime Text.
+configure_sublime: true
+sublime_package_control:
+  - "Theme - One Dark"
+  - "DocBlockr"
+  - "Dockerfile Syntax Highlighting"
+  - "FileDiffs"
+  - "GitHub Flavored Markdown Preview"
+  - "Package Control"
+  - "Pretty JSON"
+  - "SublimeLinter"
+  - "SublimeLinter-contrib-yamllint"
+  - "TrailingSpaces"
+  - "WordCount"

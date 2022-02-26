@@ -302,7 +302,7 @@
     "*.zip"
   ],
   "close_windows_when_empty": true,
-  "color_scheme": "Packages/User/Cobalt (SL).tmTheme",
+  "color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
   "create_window_at_startup": false,
   "detect_indentation": true,
   "draw_minimap_border": false,
@@ -344,14 +344,14 @@
     ".bundle",
     ".vagrant"
   ],
-  "font_size": 15.0,
+  "font_size": 18.0,
+  "font_face": "Fira Code",
+  "line_padding_top": 8,
+  "line_padding_bottom": 8,
   "gpu_window_buffer": false,
   "gutter": true,
   "highlight_line": true,
-  "ignored_packages":
-  [
-    "Vintage",
-  ],
+  "ignored_packages": [],
   "ignored_words":
   [
     "0000ff",
@@ -399,7 +399,7 @@
   "smart_indent": true,
   "spell_check": false,
   "tab_size": 2,
-  "theme": "auto",
+  "theme": "One Dark.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_automatic_white_space": false,
   "trim_trailing_white_space_on_save": false,
