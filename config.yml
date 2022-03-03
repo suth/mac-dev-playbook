@@ -28,15 +28,22 @@ dockitems_persist:
   - name: "iTerm"
     path: "/Applications/iTerm.app/"
     pos: 7
+  - name: "Tower"
+    path: "/Applications/Tower.app/"
+    pos: 8
+  - name: "Mimestream"
+    path: "/Applications/Mimestream.app/"
+    pos: 9
   - name: "Slack"
     path: "/Applications/Slack.app/"
-    pos: 8
+    pos: 10
 
 dotfiles_repo: https://github.com/suth/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
   - .zshrc
+  - .gitconfig
   - .gitignore
   - .inputrc
   - .osx
@@ -60,6 +67,7 @@ homebrew_installed_packages:
   - wget
   # - wrk
   - zsh-history-substring-search
+  - zsh-syntax-highlighting
   - romkatv/powerlevel10k/powerlevel10k
 
 homebrew_taps:
@@ -78,6 +86,7 @@ homebrew_cask_apps:
   - tableplus
   - slack
   - discord
+  - mimestream
   - vlc
   - bettertouchtool
   - iterm2
