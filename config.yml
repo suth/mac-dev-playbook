@@ -59,8 +59,10 @@ homebrew_installed_packages:
   - git
   # - httpie
   - iperf
+  - mkcert
   # - nmap
   - node
+  - nss
   - nvm
   - php
   - ssh-copy-id
