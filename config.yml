@@ -35,9 +35,9 @@ dockitems_persist:
     path: "/Applications/Slack.app/"
     pos: 9
 
-dotfiles_repo: git@github.com:suth/dotfiles.git
+dotfiles_repo: https://github.com/suth/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Code/GitHub/dotfiles
 dotfiles_files:
   - .zshrc
   - .gitconfig
