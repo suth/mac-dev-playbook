@@ -159,6 +159,11 @@ It's my hope that I can get the rest of these things wrapped up into Ansible pla
   8. Enable unlock with Apple Watch
   9. Set up Time Machine
   10. Configure SSH keys
+  11. Enable Safari's develop menu
+  12. Show link URL on hover in Safari by going to View > Show Status Bar
+  13. Sync iTerm preferences in General > Preferences and select the appropriate Dropbox folder
+  14. Sync PhpStorm preferences using File > Manage IDE Settings > Sync Settings to JetBrains Account
+  15. Disable iTunes sound check to prevent volume auto-leveling
 
 ### Configuration to be added:
 
