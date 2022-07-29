@@ -13,30 +13,27 @@ dockitems_remove:
   - News
   - 'App Store'
 dockitems_persist:
-  - name: "Brave Browser"
-    path: "/Applications/Brave Browser.app/"
-    pos: 3
   - name: "Google Chrome"
     path: "/Applications/Google Chrome.app/"
-    pos: 4
+    pos: 3
   - name: "PhpStorm"
     path: "/Applications/PhpStorm.app/"
-    pos: 5
+    pos: 4
   - name: "Sublime Text"
     path: "/Applications/Sublime Text.app/"
-    pos: 6
+    pos: 5
   - name: "iTerm"
     path: "/Applications/iTerm.app/"
-    pos: 7
+    pos: 6
   - name: "Tower"
     path: "/Applications/Tower.app/"
-    pos: 8
+    pos: 7
   - name: "Mimestream"
     path: "/Applications/Mimestream.app/"
-    pos: 9
+    pos: 8
   - name: "Slack"
     path: "/Applications/Slack.app/"
-    pos: 10
+    pos: 9
 
 dotfiles_repo: git@github.com:suth/dotfiles.git
 dotfiles_repo_accept_hostkey: true
